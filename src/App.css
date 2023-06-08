@@ -1,0 +1,16 @@
+.bot-response pre {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.bot-response ol,
+.bot-response ul {
+  margin-left: 20px;
+  color: #5e5151;
+}
+
+body {
+  padding: 0;
+}
