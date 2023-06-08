@@ -19,7 +19,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     return (
         <VStack
             align="stretch"
-            h="100vh"
+            h="100dvh"
             w="full"
             spacing={0}
         >
@@ -37,7 +37,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
                 <Box
                     position="relative"
                     w="full"
-                    h={`calc(100vh - ${HEADER_HEIGHT}px)`}
+                    h={`calc(100dvh - ${HEADER_HEIGHT}px)`}
                 >
                     {children}
                     <Overlay
